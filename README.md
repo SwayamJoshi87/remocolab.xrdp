@@ -5,7 +5,7 @@ It secures TurboVNC connection using SSH port forwarding.
 
 - [FAQ](https://github.com/demotomohiro/remocolab/wiki/Frequently-Asked-Questions)
 
-##If you want to directlu use it directly then you can use my premade notebook on google colab
+## If you want to directlu use it directly then you can use my premade notebook on google colab
   https://colab.research.google.com/drive/1lWgX-LBkd8cXJakaSLcHS8FQ1K4roqJm?usp=sharing
 
 ## How to access SSH server running in colab?

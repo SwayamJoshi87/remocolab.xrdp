@@ -50,14 +50,14 @@ If you use Argo Tunnel:
    - add `tunnel = "argotunnel"` if you use Argo Tunnel.
 - SSH only:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git
+!pip install git+https://github.com/SwayamJoshi87/remocolab.xrdp.git
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git
+!pip install git+https://github.com/SwayamJoshi87/remocolab.xrdp.git
 import remocolab
 remocolab.setupVNC()
 ```

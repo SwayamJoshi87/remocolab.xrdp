@@ -5,8 +5,8 @@ It secures TurboVNC connection using SSH port forwarding.
 
 - [FAQ](https://github.com/demotomohiro/remocolab/wiki/Frequently-Asked-Questions)
 
-## If you want to directlu use it directly then you can use my pre-made notebook on google colab
-  https://colab.research.google.com/drive/1lWgX-LBkd8cXJakaSLcHS8FQ1K4roqJm?usp=sharing
+## If you want to use it directly then you can use my pre-made notebook on google colab
+  https://colab.research.google.com/drive/1_wsC8_YAQk9yYyJAJIZI0ezpBcEzqI7J?usp=sharing
 
 ## How to access SSH server running in colab?
 You cannot directory login to the SSH server running on a colab instace.
@@ -154,14 +154,14 @@ remocolab in kaggle branch works on [Kaggle](https://www.kaggle.com/).
 
 - SSH only:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git@kaggle
+!pip install git+https://github.com/SwayamJoshi87/remocolab.xrdp.git@kaggle
 import remocolab
 remocolab.setupSSHD()
 ```
 
 - SSH and TurboVNC:
 ```python3
-!pip install git+https://github.com/demotomohiro/remocolab.git@kaggle
+!pip install git+https://github.com/SwayamJoshi87/remocolab.xrdp.git@kaggle
 import remocolab
 remocolab.setupVNC()
 ```
